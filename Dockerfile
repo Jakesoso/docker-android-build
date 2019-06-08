@@ -1,5 +1,4 @@
-FROM openjdk:8-slim
-MAINTAINER ElXreno <elxreno@gmail.com>
+FROM openjdk:7
 
 ENV DEBIAN_FRONTEND noninteractive
 
@@ -37,5 +36,3 @@ RUN apt-get -qq update \
     && rm -rf /var/lib/apt/lists/*
 
 RUN curl https://storage.googleapis.com/git-repo-downloads/repo > /bin/repo && chmod a+x /bin/repo
-
-VOLUME /root/omni
