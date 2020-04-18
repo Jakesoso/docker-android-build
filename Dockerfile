@@ -11,7 +11,7 @@ RUN apt-get -qq update \
 	git \ 
 	gnupg \ 
 	gperf \ 
-	libesd0-dev
+	libesd0-dev \ 
 	libncurses5-dev \ 
 	libsdl1.2-dev \ 
 	libwxgtk2.8-dev \ 
