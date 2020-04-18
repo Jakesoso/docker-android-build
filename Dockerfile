@@ -17,7 +17,7 @@ RUN apt-get -qq update \
 	libwxgtk2.8-dev \ 
 	libxml2 \ 
 	libxml2-utils \ 
-	lzop
+	lzop \ 
 	pngcrush \ 
 	schedtool \ 
 	squashfs-tools \ 
