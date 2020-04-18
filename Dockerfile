@@ -27,8 +27,8 @@ RUN apt-get -qq update \
 	g++-multilib \ 
 	gcc-multilib \ 
 	lib32ncurses5-dev \ 
-	lib32readline-gplv2-dev \
-	lib32z1-de \
+	lib32readline-gplv2-dev \ 
+	lib32z1-de \ 
     	&& rm -rf /var/lib/apt/lists/*
     
 RUN curl https://storage.googleapis.com/git-repo-downloads/repo > /bin/repo && chmod a+x /bin/repo
