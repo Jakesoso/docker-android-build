@@ -22,7 +22,7 @@ RUN apt-get -qq update \
 	schedtool \ 
 	squashfs-tools \ 
 	xsltproc \ 
-	zip
+	zip \ 
 	zlib1g-dev \ 
 	g++-multilib \ 
 	gcc-multilib \ 
