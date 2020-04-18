@@ -4,7 +4,7 @@ ENV DEBIAN_FRONTEND noninteractive
 
 RUN apt-get -qq update \
     	&& apt-get install -y --no-install-recommends \
-	bison \
+	bison \ 
 	build-essential \ 
 	curl \ 
 	flex \ 
